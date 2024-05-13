@@ -2,7 +2,7 @@
     "name": "Dium-Craft",
     "preductname": "Dium-Craft Launcher",
     "version": "1.0.0",
-    "description": "Dium-Craft modded server launcher",
+    "description": "Dium-Craft Serveur Modded pvp Faction",
     "main": "src/app.js",
     "author": "DiumStream",
     "settings": "https://launcherdev.dium-craft.fr",
