@@ -22,7 +22,8 @@ class Splash {
     async startAnimation() {
         config.GetConfig().then(res => {
             let splashes = [
-                { "message": res.splash, "author": res.splash_author },
+                { "message": "Pvp C'est le bute final", "author": "DiumStream" },
+                { "message": "Merci de jouer à Dium-Craft", "author": "DiumStream" }
             ];
             let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
