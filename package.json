@@ -5,7 +5,7 @@
     "description": "Dium-Craft Serveur Modded pvp Faction",
     "main": "src/app.js",
     "author": "DiumStream",
-    "settings": "https://launcherdev.dium-craft.fr",
+    "settings": "https://diumlauncher.dium-craft.fr",
     "engines": {
         "node": "16.x.x"
     },
