@@ -1,11 +1,11 @@
 {
-    "name": "Conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "2.4.0",
-    "description": "Conflictura modded server launcher",
+    "name": "Dium-Craft",
+    "preductname": "Dium-Craft Launcher",
+    "version": "1.0.4",
+    "description": "Dium-Craft Serveur Modded pvp Faction",
     "main": "src/app.js",
-    "author": "Luuxis/Riptiaz",
-    "settings": "https://launcher.conflictura.site",
+    "author": "DiumStream",
+    "settings": "https://diumlauncher.dium-craft.fr",
     "engines": {
         "node": "16.x.x"
     },
@@ -22,7 +22,7 @@
         "discord-rpc": "^4.0.1",
         "electron-updater": "^6.1.4",
         "https": "^1.0.0",
-        "minecraft-java-core": "^3.10.4",
+        "minecraft-java-core": "^3.6.4",
         "node-fetch": "^2.6.7",
         "xml-js": "^1.6.11"
     },
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/DiumStream-dev/Dium-Craft-Launcher.git"
     }
 }
