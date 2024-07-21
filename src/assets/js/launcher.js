@@ -12,10 +12,10 @@ const pkg = require('../package.json');
 const { ipcRenderer } = require('electron');
 const DiscordRPC = require('discord-rpc');
 
-import { config, logger, changePanel, database, addAccount, accountSelect } from './utils.js';
-import Login from './panels/login.js';
 import Home from './panels/home.js';
+import Login from './panels/login.js';
 import Settings from './panels/settings.js';
+import { accountSelect, addAccount, changePanel, config, database, logger } from './utils.js';
 
 class Launcher {
     async init() {
@@ -188,7 +188,7 @@ class Launcher {
 
         if (this.config.money === true) {
             const blockMonnaie = document.createElement("div");
-            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} pts</div>`;
+            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} DiumCoins</div>`;
             document.querySelector('.player-monnaie').appendChild(blockMonnaie);
         } else {
             document.querySelector(".player-monnaie").style.display = "none";
