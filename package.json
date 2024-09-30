@@ -1,11 +1,11 @@
 {
     "name": "Dium-Craft",
     "preductname": "Dium-Craft Launcher",
-    "version": "1.0.8",
-    "description": "Dium-Craft Serveur Modded pvp Faction",
+    "version": "1.0.9",
+    "description": "Dium-Craft modded server launcher",
     "main": "src/app.js",
-    "author": "DiumStream",
-    "settings": "https://launcher.dium-craft.fr",
+    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
+    "settings": "https://launcher.Dium-Craft.fr",
     "engines": {
         "node": "16.x.x"
     },
@@ -22,7 +22,7 @@
         "discord-rpc": "^4.0.1",
         "electron-updater": "^6.1.4",
         "https": "^1.0.0",
-        "minecraft-java-core": "^3.6.4",
+        "minecraft-java-core-azbetter": "^3.11.3",
         "node-fetch": "^2.6.7",
         "xml-js": "^1.6.11"
     },
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DiumStream-dev/Dium-Craft-Launcher.git"
+        "url": "git+https://github.com/DiumStream-tech/Dium-Craft-Launcher.git"
     }
 }
